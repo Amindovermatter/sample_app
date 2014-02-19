@@ -1,0 +1,95 @@
+.container{
+	width: 710px;
+	}
+
+header img{
+	padding: 1em;
+	background:white;
+	}
+
+body{	
+	background:#3CF;
+	
+	
+	
+}
+header{
+	padding:10px;
+}
+
+
+section{
+	margin: 20px;
+	font-size:120%;
+	padding:20px;
+	background: #fff;
+	
+	}
+a{
+	color:#03F;
+	text-decoration:none
+	}
+	
+a:hover{
+	color:#C00;
+	text-decoration:underline;
+}
+a:visited{
+	color:#C00;
+	
+	}
+nav{
+	margin: 10px;
+	background: white;
+	padding:0 10px;
+	
+	
+	}
+
+
+nav ul li{
+	
+	display:inline-block;
+	font-variant:normal;
+	font-weight:bold;
+	font-size:16px;
+	padding: 1em;
+	
+
+}		
+nav ul li a:visited{
+	color:#03F
+	}
+	
+nav ul li a:hover{
+	color:#C00;
+	}
+
+a.signup_button{
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	text-align:center;
+	width:250px;
+	color:blue;
+	background:#9FF;
+	font-size:200%;
+	font-weight:bold;
+	padding:20px;
+	
+}
+ .round{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius:10px;
+	
+	 }
+	
+	
+	
+		
+	footer{
+		
+		margin:10px;
+		
+	}

@@ -1,0 +1,19 @@
+require 'spec_helper'
+
+
+describe User do
+
+  before (:each) do
+	@attr = {:name => "Example User", :email => 		"user.example.com"}
+  end 
+
+	describe "passwords" do
+		
+		it "should have a password attribute" do
+		  @user.should respond_to(:password)
+		end
+
+		it "should haave a password confirmation" do
+		  @user.should respond_to(:password_confirmation)
+	end
+		
